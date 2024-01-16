@@ -43,7 +43,7 @@ export default function Movies() {
             <div key = {list.id} className="w-[180px] h-[340px] rounded-lg shadow-lg overflow-hidden">
             {/* 위: 그림 */}
             <div className="w-full h-[250px] ">
-              <img className="w-full h-full object-cover" 
+              <img className="w-full h-full object-cover" alt="images"
               src = {`https://image.tmdb.org/t/p/w500${list.poster_path}`} />
             </div>
             {/* 아래: 내용 */}

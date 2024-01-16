@@ -39,7 +39,7 @@ export default function TrendingPage() {
         // fetch 요청이 끝이나면 isLoading 값을 false
         setIsLoading(false)
 
-    }, [activeTab])
+    }, [activeTab,isLoading])
 
   return (
     <div className="w-full flex justify-center">
